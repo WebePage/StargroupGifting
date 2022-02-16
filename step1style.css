@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Catamaran:wght@300&family=Rubik&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Catamaran:wght@300&family=Kalam&family=Rubik&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Cabin&family=Catamaran:wght@300&family=Kalam&family=Rubik&family=Supermercado+One&display=swap');
+
+body
+{
+    background-color: #1E90FF;
+}
+
+#groupphoto
+{
+    padding-left: 100px;
+    position: absolute;
+    top: -20px;
+    cursor: pointer;
+}
+
+#h1
+{
+    font-size: 55px;
+    font-family: Kalam;
+    position: absolute;
+    top: 70px;
+    left: 630px;
+}
+
+#name
+{
+    position: absolute;
+    top: 330px;
+    left: 280px;
+    font-size: 35px;
+    font-family: Aleo;
+    font-weight: 600;
+}
+
+#typename
+{
+    border: 2px #000 solid;
+    outline: none;
+    position: absolute;
+    border-radius: 10px;
+    width: 400px;
+    height: 45px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Aleo;
+    background-color: #fff;
+    color: #1E90FF;
+    top: 420px;
+    left: 340px;
+}
+
+#one
+{
+    position: absolute;
+    top: 250px;
+    left: 230px;
+    font-size: 40px;
+    font-family: Kalam;
+    font-weight: 1000;
+}
+
+#gmail
+{
+    position: absolute;
+    top: 525px;
+    left: 280px;
+    font-size: 35px;
+    font-family: Aleo;
+    font-weight: 600;
+}
+
+#typeemail
+{
+    border: 2px #000 solid;
+    outline: none;
+    position: absolute;
+    border-radius: 10px;
+    width: 400px;
+    height: 45px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Aleo;
+    background-color: #fff;
+    color: #1E90FF;
+    top: 615px;
+    left: 340px;
+}
+
+#saba
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: #000 1px solid;
+    font-family: Kalam;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #1E90FF;
+    color: #fff;
+    position: absolute;
+    top: 770px;
+    left: 700px;
+    cursor: pointer;
+}
+
+#saba:hover
+{
+    background-color: #fff;
+    color: #1E90FF;
+    transition: background-color 1s;
+}
+
+#test1
+{
+    width: 1000px;
+    height: 930px;
+    border: #000 solid 2px;
+    position: absolute;
+    top: -10px;
+    left: 160px;
+}
+
+#test
+{
+    background-color: #1E90FF;
+    width: 1000px;
+    height: 24px;
+    position: absolute;
+    top: 901px;
+    left: 162px;
+}
+
+@media screen and (max-width: 700px)
+{
+    #test1
+    {
+        left: 10px;
+    }
+}

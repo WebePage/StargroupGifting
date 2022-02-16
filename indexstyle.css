@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Catamaran:wght@300&family=Rubik&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Catamaran:wght@300&family=Kalam&family=Rubik&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Cabin&family=Catamaran:wght@300&family=Kalam&family=Rubik&family=Supermercado+One&display=swap');
+
+#groupphoto
+{
+    padding-left: 250px;
+    position: absolute;
+    top: -40px;
+    cursor: pointer;
+}
+
+#h1
+{
+    font-size: 55px;
+    font-family: Kalam;
+    position: absolute;
+    top: 80px;
+    left: 800px;
+}
+
+#descri
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 250px;
+    font-size: 30px;
+    font-family: Catamaran;
+    position: absolute;
+}
+
+button
+{
+    font-size: 35px;
+    font-family: Aleo;
+    border: 1px solid #000;
+    cursor: pointer;
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    color: #1E90FF;
+    background-color: #fff;
+}
+
+#Start
+{
+    position: absolute;
+    top: 420px;
+    left: 470px;
+}
+
+button:hover
+{
+    color: #fff;
+    background-color: #1E90FF;
+    transition: background-color 1s;
+}
+
+
+@media screen and (max-width: 1150px)
+{
+    #groupphoto
+    {
+        padding-left: 200px;
+    }
+
+    #h1
+    {
+        left: 750px;
+    }
+
+    button
+    {
+        position: absolute;
+        left: -80px;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    #groupphoto
+    {
+        padding-left: 0px;
+    }
+
+    #h1
+    {
+        left: 550px;
+    }
+
+    button
+    {
+        position: absolute;
+        left: -200px;
+        top: 50px;
+        margin-bottom: 100px;
+        background-color: #1E90FF;
+        color: #fff;
+    }
+
+    #test
+    {
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        position: absolute;
+        top: 600px;
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 770px)
+{
+    #groupphoto
+    {
+        width: 500px;
+        padding-left: 0px;
+    }
+
+    #h1
+    {
+        left: 440px;
+        top: 50px;
+        font-size: 50px;
+    }
+
+    button
+    {
+        position: absolute;
+        left: -300px;
+        top: 80px;
+    }
+
+    #descri
+    {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    #groupphoto
+    {
+        width: 500px;
+        padding-left: 0px;
+    }
+
+    #h1
+    {
+        left: 200px;
+        top: 125px;
+        font-size: 50px;
+    }
+
+    button
+    {
+        position: absolute;
+        left: -400px;
+        top: 180px;
+    }
+
+    #descri
+    {
+        padding-top: 250px;
+    }
+
+    #test
+    { 
+        top: 750px;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    #groupphoto
+    {
+        width: 500px;
+        padding-left: 0px;
+    }
+
+    #h1
+    {
+        left: 200px;
+        top: 125px;
+        font-size: 50px;
+    }
+
+    button
+    {
+        position: absolute;
+        left: -400px;
+        top: 250px;
+    }
+
+    #descri
+    {
+        padding-top: 250px;
+    }
+
+    #test
+    { 
+        top: 780px;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    button
+    {
+        position: absolute;
+        left: -400px;
+        top: 320px;
+    }
+}
