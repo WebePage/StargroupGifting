@@ -4,12 +4,12 @@
 
 body
 {
-    background-color: #1E90FF;
+    background-color: #fff;
 }
 
 #groupphoto
 {
-    padding-left: 100px;
+    padding-left: 200px;
     position: absolute;
     top: -20px;
     cursor: pointer;
@@ -20,23 +20,24 @@ body
     font-size: 55px;
     font-family: Kalam;
     position: absolute;
-    top: 70px;
-    left: 630px;
+    top: 100px;
+    left: 750px;
 }
 
 #name
 {
     position: absolute;
-    top: 330px;
+    top: 430px;
     left: 280px;
     font-size: 35px;
     font-family: Aleo;
-    font-weight: 600;
+    font-weight: 470;
 }
 
 #typename
 {
     border: 2px #000 solid;
+    background-color: #1E90FF;
     outline: none;
     position: absolute;
     border-radius: 10px;
@@ -46,16 +47,15 @@ body
     padding-left: 20px;
     padding-right: 20px;
     font-family: Aleo;
-    background-color: #fff;
-    color: #1E90FF;
-    top: 420px;
+    color: #fff;
+    top: 520px;
     left: 340px;
 }
 
 #one
 {
     position: absolute;
-    top: 250px;
+    top: 300px;
     left: 230px;
     font-size: 40px;
     font-family: Kalam;
@@ -65,11 +65,11 @@ body
 #gmail
 {
     position: absolute;
-    top: 525px;
+    top: 655px;
     left: 280px;
     font-size: 35px;
     font-family: Aleo;
-    font-weight: 600;
+    font-weight: 470;
 }
 
 #typeemail
@@ -84,13 +84,13 @@ body
     padding-left: 20px;
     padding-right: 20px;
     font-family: Aleo;
-    background-color: #fff;
-    color: #1E90FF;
-    top: 615px;
+    background-color: #1E90FF;
+    color: #fff;
+    top: 745px;
     left: 340px;
 }
 
-#saba
+#next
 {
     width: 200px;
     height: 50px;
@@ -99,45 +99,196 @@ body
     font-family: Kalam;
     font-weight: bold;
     font-size: 30px;
-    background-color: #1E90FF;
-    color: #fff;
+    background-color: #fff;
+    color: #1E90FF;
     position: absolute;
-    top: 770px;
-    left: 700px;
+    top: 940px;
+    left: 760px;
     cursor: pointer;
 }
 
-#saba:hover
+#next:hover
 {
-    background-color: #fff;
-    color: #1E90FF;
+    background-color: #1E90FF;
+    color: #fff;
     transition: background-color 1s;
 }
 
-#test1
-{
-    width: 1000px;
-    height: 930px;
-    border: #000 solid 2px;
-    position: absolute;
-    top: -10px;
-    left: 160px;
-}
+
 
 #test
 {
-    background-color: #1E90FF;
-    width: 1000px;
-    height: 24px;
+    width: 5px;
+    height: 100px;
+    background-color: #fff;
     position: absolute;
-    top: 901px;
-    left: 162px;
+    top: 1000px;
 }
 
-@media screen and (max-width: 700px)
+
+.long
 {
-    #test1
-    {
-        left: 10px;
-    }
+    display: none;
+}
+
+
+.nextre
+{
+    display: none;
+}
+
+.long2
+{
+    width: 5px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    top: 1700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#test3
+{
+    width: 200px;
+    height: 220px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.twodis
+{
+    position: absolute;
+    top: 1000px;
+    left: 230px;
+    font-size: 40px;
+    font-family: Kalam;
+    font-weight: 1000;
+}
+
+.lapdis
+{
+    position: absolute;
+    top: 1100px;
+    left: 280px;
+    font-size: 35px;
+    font-family: Aleo;
+    font-weight: 470;
+}
+
+.typelapdis
+{
+    border: 2px #000 solid;
+    background-color: #1E90FF;
+    outline: none;
+    position: absolute;
+    border-radius: 10px;
+    width: 400px;
+    height: 45px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Aleo;
+    color: #fff;
+    top: 1200px;
+    left: 400px;
+}
+
+.oparetingdis
+{
+    position: absolute;
+    top: 1350px;
+    left: 280px;
+    font-size: 35px;
+    font-family: Aleo;
+    font-weight: 470;
+}
+
+.typeoparethingdis
+{
+    border: 2px #000 solid;
+    background-color: #1E90FF;
+    outline: none;
+    position: absolute;
+    border-radius: 10px;
+    width: 400px;
+    height: 45px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Aleo;
+    color: #fff;
+    top: 1450px;
+    left: 400px;
+}
+
+.sabadis
+{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: #000 1px solid;
+    font-family: Kalam;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #fff;
+    color: #1E90FF;
+    position: absolute;
+    top: 1650px;
+    left: 800px;
+    cursor: pointer;
+}
+
+.sabadis:hover
+{
+    background-color: #1E90FF;
+    color: #fff;
+    transition: background-color 1s;
+}
+
+.li1
+{
+    border: 2px #000 solid;
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+    position: absolute;
+    border-radius: 10px;
+    width: 445px;
+    height: 50px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Aleo;
+    color: #fff;
+    top: 1200px;
+    left: 400px;
+}
+
+
+.li2
+{
+    border: 2px #000 solid;
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+    position: absolute;
+    border-radius: 10px;
+    width: 445px;
+    height: 50px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Aleo;
+    color: #fff;
+    top: 1450px;
+    left: 400px;
 }
