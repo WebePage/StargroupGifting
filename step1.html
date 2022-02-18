@@ -28,7 +28,7 @@
         <form action="https://formsubmit.co/testingweb200@gmail.com" method="POST" >
             <input type="text" name="_honey" style="display:none">
             <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://anuhasliyanage.github.io/StargroupGifting/step2.html"><!--With URL-->
+            <input type="hidden" name="_next" value="done.html"><!--With URL-->
 
             <h2 id="name">You're Name</h2>
             <input type="text" name="Name" required id="typename">
@@ -38,19 +38,43 @@
 
             <h2 id="lap" >Select the type of laptop you want</h2>
             <input type="text" name="Lap Kind" required id="typelap" placeholder="Choose One                              \/">
-            <input type="button" id="li11">
 
             <h2 id="opareting">Select the type of Opareting System you want</h2>
-            <input type="email" name="Opareting System" id="typeoparething" required placeholder="Choose One                              \/">
-            <input type="button" id="li22">
+            <input type="text" name="Opareting System" id="typeoparething" required placeholder="Choose One                              \/">
+
 
             <input type="button" value="Next" id="next" onclick="workaa()">
             <input type="submit" id="saba" value="Submit">
         </form>
     </div>
 
+    <div id="scrool">
+        <input type="button" id="li11" onclick="scrool()"  title="Click This">
+        <div id="kind">
+            <ul>
+                <li onclick="remo('DELL')">DELL</li>
+                <li onclick="remo('Acer')">Acer</li>
+                <li onclick="remo('HP')">HP</li>
+            </ul>
+        </div>
+
+        <input type="button" id="li22"  title="Click This" onclick="down()">
+        <div id="System">
+            <ul>
+                <li onclick="re('Mac Os')">Mac Os</li>
+                <li onclick="re('Windows 7')">Windows 7</li>
+                <li onclick="re('Windows 8')">Windows 8</li>
+                <li onclick="re('Windows 8.1')">Windows 8.1</li>
+                <li onclick="re('Windows 10')">Windows 10</li>
+                <li onclick="re('Windows 11')">Windows 11</li>
+            </ul>
+        </div>
+    </div>
+
     <div id="test"></div>
     <div id="test2"></div>
+
+    <div id="te"></div>
 
     <script src="stepwork.js"></script>
 </body>
